@@ -33,7 +33,7 @@ Console.WriteLine();
 }
 }
 
-//ПРОИЗВЕДЕНИЕ МАССИВОВ
+//ПРОИЗВЕДЕНИЕ МАССИВОВ И ВЫВОД НА ЭКРАН
 void ArrayComp(int[,] arr1,int[,] arr2)
 {
     if (arr1.GetLength(1) != arr2.GetLength(0)) Console.WriteLine("а я говорила, ничего не получится ↑");
